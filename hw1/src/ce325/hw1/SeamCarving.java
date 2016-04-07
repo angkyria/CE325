@@ -1,6 +1,4 @@
 
-package ce321.hw1;
-
 import java.util.Scanner;
 
 public class SeamCarving {
@@ -16,6 +14,7 @@ public class SeamCarving {
             Scanner scanIn = new Scanner(System.in);
             image_name = scanIn.nextLine(); 
         } 
+        SeamCarver image = new SeamCarver(image_name);
 
 
     }
